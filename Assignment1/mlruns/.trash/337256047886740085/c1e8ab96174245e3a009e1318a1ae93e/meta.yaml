@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/337256047886740085/c1e8ab96174245e3a009e1318a1ae93e/artifacts
+deleted_time: 1739808829906
+end_time: 1739778749238
+entry_point_name: ''
+experiment_id: '337256047886740085'
+lifecycle_stage: deleted
+run_id: c1e8ab96174245e3a009e1318a1ae93e
+run_name: Reg-Lasso_Method-stochastic_LR-0.0001_Init-zeros_Momentum-True
+run_uuid: c1e8ab96174245e3a009e1318a1ae93e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739778744744
+status: 3
+tags: []
+user_id: HMH

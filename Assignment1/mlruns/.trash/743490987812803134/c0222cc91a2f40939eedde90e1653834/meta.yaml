@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/743490987812803134/c0222cc91a2f40939eedde90e1653834/artifacts
+deleted_time: 1739815070641
+end_time: 1739809206308
+entry_point_name: ''
+experiment_id: '743490987812803134'
+lifecycle_stage: deleted
+run_id: c0222cc91a2f40939eedde90e1653834
+run_name: Ridge-grad-mini-lr-0.001-init-zero-momentum-0.9-poly-True
+run_uuid: c0222cc91a2f40939eedde90e1653834
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739809180980
+status: 3
+tags: []
+user_id: Htoo Min Htet

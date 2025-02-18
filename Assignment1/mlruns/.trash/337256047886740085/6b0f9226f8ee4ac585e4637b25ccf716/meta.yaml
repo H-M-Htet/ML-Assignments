@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/337256047886740085/6b0f9226f8ee4ac585e4637b25ccf716/artifacts
+deleted_time: 1739808829906
+end_time: 1739778975013
+entry_point_name: ''
+experiment_id: '337256047886740085'
+lifecycle_stage: deleted
+run_id: 6b0f9226f8ee4ac585e4637b25ccf716
+run_name: Fold-0
+run_uuid: 6b0f9226f8ee4ac585e4637b25ccf716
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739778974918
+status: 3
+tags: []
+user_id: HMH
