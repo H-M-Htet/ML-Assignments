@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/337256047886740085/8ab260a953264ffea759fc4bf45d472e/artifacts
+deleted_time: 1739808829906
+end_time: null
+entry_point_name: ''
+experiment_id: '337256047886740085'
+lifecycle_stage: deleted
+run_id: 8ab260a953264ffea759fc4bf45d472e
+run_name: Reg-Polynomial_Method-stochastic_LR-0.01_Init-zeros_Momentum-True
+run_uuid: 8ab260a953264ffea759fc4bf45d472e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739735960033
+status: 1
+tags: []
+user_id: HMH

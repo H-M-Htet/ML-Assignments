@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/743490987812803134/9c2f3fd5e6a842a68cb131c36c4fe9d1/artifacts
+deleted_time: 1739815070641
+end_time: 1739810258480
+entry_point_name: ''
+experiment_id: '743490987812803134'
+lifecycle_stage: deleted
+run_id: 9c2f3fd5e6a842a68cb131c36c4fe9d1
+run_name: Lasso-grad-batch-lr-0.001-init-zero-momentum-0.0-poly-True
+run_uuid: 9c2f3fd5e6a842a68cb131c36c4fe9d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739810231287
+status: 3
+tags: []
+user_id: Htoo Min Htet

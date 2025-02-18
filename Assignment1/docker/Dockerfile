@@ -3,7 +3,7 @@ FROM python:3.12
 WORKDIR /app
 
 # Copy requirements.txt from the parent directory
-COPY ../requirements.txt .
+COPY Assignment1/requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
@@ -15,4 +15,5 @@ COPY .. .
 ENV PYTHONPATH=/app
 
 # Run the Python application
-CMD ["python", "app/app.py"]
+CMD ["python", "Assignment1/app/app.py"]
+# CMD ["/bin/bash"]

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/743490987812803134/af48df8089824fe9abb0657bf02f9d92/artifacts
+deleted_time: 1739815070641
+end_time: 1739809187835
+entry_point_name: ''
+experiment_id: '743490987812803134'
+lifecycle_stage: deleted
+run_id: af48df8089824fe9abb0657bf02f9d92
+run_name: Fold-0
+run_uuid: af48df8089824fe9abb0657bf02f9d92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739809181036
+status: 3
+tags: []
+user_id: Htoo Min Htet

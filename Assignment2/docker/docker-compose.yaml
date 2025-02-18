@@ -1,0 +1,14 @@
+services:
+  a2_assignment:
+    image: a2:0.1
+    container_name: a2_assignment
+    stdin_open: true
+    tty: true
+    working_dir: ${PWD}
+    environment:
+      - PYTHONPATH=${PWD}
+    volumes:
+      - ${PWD}:${PWD}
+    entrypoint: ["/bin/bash"]
+    ports:
+      - "8000:8000"  

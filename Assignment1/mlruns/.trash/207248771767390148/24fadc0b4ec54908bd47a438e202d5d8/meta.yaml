@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/207248771767390148/24fadc0b4ec54908bd47a438e202d5d8/artifacts
+deleted_time: 1739815066479
+end_time: 1739807279172
+entry_point_name: ''
+experiment_id: '207248771767390148'
+lifecycle_stage: deleted
+run_id: 24fadc0b4ec54908bd47a438e202d5d8
+run_name: Reg-Ridge_LR-0.01_Momentum-0.0_Init-zeros_Method-sto_poly--True
+run_uuid: 24fadc0b4ec54908bd47a438e202d5d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739807279041
+status: 4
+tags: []
+user_id: Htoo Min Htet

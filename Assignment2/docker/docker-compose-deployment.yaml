@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  st125298-a2:
+    container_name: st125298_a2_container  
+    image: hmh23/a2_assignment
+    platform: linux/x86_64
+    environment:
+      - HOST=0.0.0.0
+      - PORT=7001
+    ports:
+      - "7001:7001"
+    labels:
+      - traefik.enable=true
+      - traefik.http.services.web-st125298.loadbalancer.server.port=7001
+      - traefik.http.routers.web-st125298.tls=true
+      - traefik.http.routers.web-st125298.rule=Host(`st125298.ml.brain.cs.ait.ac.th`)
+      - traefik.http.routers.web-st125298.tls.certresolver=production
+      - traefik.http.routers.web-st125298.entrypoints=websecure
+    networks:
+      - default
+      - traefik_default
+
+networks:
+  default:
+  traefik_default:
+    external: true
