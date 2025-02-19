@@ -1,6 +1,6 @@
 services:
   a2_assignment:
-    image: a2:0.1
+    image: a2_assignment
     container_name: a2_assignment
     stdin_open: true
     tty: true

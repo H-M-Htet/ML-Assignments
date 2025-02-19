@@ -66,8 +66,8 @@ def process_data_old():
         return result
 
 # Prediction function for old model
-def prediction_old(max_power, mileage, year, engine):
-    sample        = np.array([[max_power, mileage, year, engine]])
+def prediction_old(max_power, mileage, year):
+    sample        = np.array([[max_power, mileage, year]])
     sample_scaled = old_scaler.transform(sample)
     result        = np.exp(old_model.predict(sample_scaled))
     return result
@@ -87,8 +87,8 @@ def process_data_new():
         return result
 
 # Prediction function for new model
-def prediction_new(max_power, mileage, year, engine):
-    sample        = np.array([[max_power, mileage, year, engine]])
+def prediction_new(max_power, mileage, year):
+    sample        = np.array([[max_power, mileage, year]])
     sample_scaled = new_scaler.transform(sample)
     intercept     = np.ones((sample_scaled.shape[0], 1))
     sample_scaled = np.concatenate((intercept, sample_scaled), axis=1)

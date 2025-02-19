@@ -2,11 +2,11 @@ FROM python:3.12
 
 WORKDIR /app
 
-COPY Assignment2/requirements.txt .
+COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY Assignment2 /app
+COPY . /app
 
 ENV PYTHONPATH=/app
 
